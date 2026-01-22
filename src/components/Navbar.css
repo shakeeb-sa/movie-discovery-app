@@ -1,0 +1,47 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 60px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  transition: all 0.5s;
+}
+
+.navbar__logo {
+  color: #E50914;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.navbar__search {
+  display: flex;
+  align-items: center;
+  background: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 40px;
+}
+
+.navbar__search input {
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+
+.navbar__search button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

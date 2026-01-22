@@ -1,0 +1,26 @@
+.searchPage {
+  padding: 80px 20px; /* Padding top prevents hiding behind navbar */
+  color: white;
+}
+
+.searchPage__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.searchPage__card {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.searchPage__card:hover {
+  transform: scale(1.05);
+}
+
+.searchPage__card img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}

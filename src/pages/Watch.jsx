@@ -5,7 +5,7 @@ import { api } from '../api'; // Need API to fetch trailer
 
 // --- SAFETY SWITCH ---
 // Set this to TRUE before pushing to GitHub
-const IS_PUBLIC_DEMO = false; 
+const IS_PUBLIC_DEMO = true; 
 // ---------------------
 
 const Watch = () => {
